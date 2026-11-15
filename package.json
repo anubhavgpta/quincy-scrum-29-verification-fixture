@@ -1,0 +1,7 @@
+{
+  "name": "quincy-scrum-29-verification-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node --check src/lookup.js", "test": "node --test" }
+}
