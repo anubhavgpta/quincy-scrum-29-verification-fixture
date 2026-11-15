@@ -1,5 +1,5 @@
-import { exec } from 'node:child_process';
+import { execFile } from 'node:child_process';
 
 export function lookupHost(hostname, callback) {
-  return exec(`nslookup ${hostname}`, callback);
+  return execFile('nslookup', [hostname], callback);
 }
